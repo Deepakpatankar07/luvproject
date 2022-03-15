@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: red;
+    padding: 20px;
+    font-family: 'gilroy';
+}
+#nav{
+    width: 100%;
+    /* height: 50px; */
+    background-color: rgba(51, 51, 51, 0.89);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.left{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.left i{
+    /* font-size: 15px; */
+    margin: 0 10px;
+}
+.left h3{
+    font-size: 25px;
+    margin: 0 10px;
+    color: red;
+}
+.middle a{
+    text-decoration: none;
+    color: #fff;
+     margin: 0 10px;
+}
+.right button{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+#tittle{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.headtittle{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.headpara{
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 15px;
+    padding: 15px 0;
+}
+.btn{
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+.btnstart{
+    background-color: rgb(245, 245, 245);
+    color: red;
+}
+.btnvideos{
+    background-color: transparent;
+    color: #fff;
+}
+#pics{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.imageone{
+    width: 250px;
+    height: 350px;
+    background-color: #333;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+.imagetwo{
+    width: 250px;
+    height: 400px;
+    background-color: #333;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+.imagethree{
+    width: 300px;
+    height: 350px;
+    background-color: #333;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+.imagefour{
+    width: 230px;
+    height: 380px;
+    background-color: #333;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+/* #footer{
+    margin-top: 40px;
+}
+.footertittle{
+    color: #fff;
+    font-size: 40px;
+}
+.footerpara{
+    color: rgba(255, 255, 255, 0.774); 
+} */
